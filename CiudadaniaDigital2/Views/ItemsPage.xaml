@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CiudadaniaDigital2.Views.ItemsPage"
+             Title="{Binding Title}"
+             xmlns:local="clr-namespace:CiudadaniaDigital2.ViewModels"  
+             xmlns:model="clr-namespace:CiudadaniaDigital2.Models"  
+             x:Name="BrowseItemsPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Command="{Binding AddItemCommand}" />
+    </ContentPage.ToolbarItems>
+    <!--
+      x:DataType enables compiled bindings for better performance and compile time validation of binding expressions.
+      https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/data-binding/compiled-bindings
+    -->
+    <ContentPage.Resources>
+        <Style TargetType="Grid">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal" />
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor"
+                                        Value="LightSkyBlue" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+    
+    
+    <RefreshView x:DataType="local:ItemsViewModel" Command="{Binding LoadItemsCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
+        <CollectionView x:Name="ItemsListView"
+                ItemsSource="{Binding Items}"
+                SelectionMode="Single"
+                        SelectionChanged="ItemsListView_SelectionChanged"
+                      
+                        >
+            <CollectionView.ItemTemplate>
+                <DataTemplate  x:DataType="model:Item">
+
+                    <Grid Padding="10"
+                      RowDefinitions="Auto, *"
+                      ColumnDefinitions="Auto, *">
+                           
+                        <Label Grid.Column="1"
+                        Text="{Binding Text}"
+                        FontAttributes="Bold"
+                        FontSize="Large"/>
+                        <Label Grid.Row="1"
+                        Grid.Column="1"
+                        Text="{Binding Description}"
+                        VerticalOptions="End" />
+                        <Label Grid.Row="1"
+                        Grid.Column="1"
+                               IsVisible="False"
+                        Text="{Binding CapituloPage}"
+                        VerticalOptions="End" />
+                    </Grid>
+
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </RefreshView>
+
+</ContentPage>

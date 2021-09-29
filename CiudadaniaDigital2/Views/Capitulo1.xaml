@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CiudadaniaDigital2.Views.Page1">
+
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="TituloAzul" TargetType="Label">
+
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="RoyalBlue" />
+                    
+            </Style>
+            <Style x:Key="TituloVerde" TargetType="Label">
+
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="YellowGreen"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+
+
+
+
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <ScrollView>
+        
+        <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+            
+            <Label Text="Unidad 1:" FontAttributes="Bold" FontSize="Title" TextColor="Red"/>
+            <Label Text="        Las Habilidades Digitales" FontAttributes="Bold" FontSize="Title" TextColor="Red"/>
+            <Label />
+            <Label Text="Capacidades para el siglo XXI" Style="{StaticResource TituloAzul}" />
+                <Label Text="Es imposible predecir qué saberes serán útiles y significativos en el futuro. Lo único que se sabe es 
+que en el siglo XXI las personas necesitan capacidades básicas: aprender a resolver problemas, construir 
+argumentos, tomar decisiones, saber comunicarlas y participar."  />
+            <Label />
+
+            <Label HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="Estas capacidades se llaman competencias fundamentales porque sirven y se aplican a todo lo que las personas aprenden a lo largo de la vida  "
+                              BackgroundColor="YellowGreen"
+                              TextColor="White"
+                              FontSize="20" />
+                            
+
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Label />
+            <Label Text="Y porque permiten enfrentar los cambios que se producen en la sociedad. 
+Para construir conocimientos las personas necesitan competencias fundamentales: la capacidad para 
+analizar, evaluar, argumentar, decidir y comunicar.
+Estas competencias son una condición necesaria para vivir en democracia. La capacidad para analizar, 
+evaluar, juzgar, argumentar, inferir, anticipar, resolver problemas, elaborar conclusiones, proponer ideas y 
+tomar decisiones es un esencial para que los ciudadanos puedan participar en la sociedad."/>
+            <Label />    
+            <Label Text="Habilidades digitales" Style="{StaticResource TituloAzul}" />
+                <Label Text="Para aplicar estas competencias al mundo de Internet se necesita una formación en habilidades 
+específicas. Son las llamadas habilidades digitales.
+Las habilidades digitales son los conocimientos, capacidades, destrezas, actitudes y estrategias que se 
+requieren para el uso de las tecnologías e Internet. 
+Estas habilidades se dividen en dos grandes categorías: las habilidades digitales fundamentales y las 
+habilidades digitales instrumentales. Empecemos por las primeras."/>
+
+            <Label />
+            <Label Text="Habilidades digitales fundamentales" Style="{StaticResource TituloAzul}" />
+            <Label Text="Las habilidades digitales fundamentales son el conjunto de capacidades que permiten pensar el entorno 
+digital y utilizarlo para la participación.
+Estas habilidades promueven un uso reflexivo, ético y creativo de las tecnologías. Se trata de comprender 
+cómo funciona Internet. Y contar con la capacidad para analizar, resolver problemas, argumentar, tomar 
+decisiones, comunicar, crear y participar en el universo on line. 
+Las habilidades digitales fundamentales permiten pensar críticamente el mundo virtual: comprender 
+el papel de las tecnologías en nuestras vidas; saber elegir y usar información confiable para tomar 
+decisiones; analizar nuestras acciones en Internet y pensar en las huellas que dejamos; entender el 
+significado y los límites de la privacidad en Internet.
+Contar con habilidades digitales fundamentales permite entender cómo funciona el entorno digital y 
+enfrentar los grandes desafíos que genera el uso de Internet. Entre ellos:"/>
+            <Label Text=" ● Comprender el significado de privacidad y la identidad digital"/>
+            <Label Text=" ● Analizar, evaluar y seleccionar la información que circula en Internet"/>
+            <Label Text=" ● Comprender cómo funcionan los algoritmos y cómo afectan la vida diaria"/>
+            <Label Text=" ● Comunicar en el universo on line, colaborar con otros, interactuar en redes"/>
+            <Label Text=" ● Utilizar Internet para participar y resolver problemas"/>
+            
+            <Label Text="Estas habilidades preparan a las personas para responder a las demandas laborales del siglo XXI. "/>
+            <Label></Label>
+            <Label Text="Habilidades digitales instrumentales" Style="{StaticResource TituloAzul}" />
+
+            <Label Text="La segunda categoría de habilidades digitales corresponde a las habilidades digitales instrumentales. Son aptitudes y destrezas vinculadas al manejo de la herramienta. Por estar centradas en el instrumento, se las llama habilidades digitales instrumentales Estas habilidades facilitan un uso práctico de los dispositivos digitales, las aplicaciones y plataformas. Las habilidades digitales instrumentales enseñan a manejar las herramientas para funciones y acciones específicas."/>
+            <Label></Label>
+            <Label Text="Las habilidades digitales instrumentales más frecuentes y demandadas son:"/>
+            <Label Text=" ● La generación y el uso del correo electrónico"/>
+            <Label Text=" ● La utilización de planillas y hojas de cálculo."/>
+            <Label Text=" ● La realización de presentaciones digitales"/>
+            <Label Text=" ● La descarga e instalación de aplicaciones"/>
+            <Label Text=" ● La creación de videos y contenidos digitales"/>
+            <Label Text=" ● El uso de redes sociales para compartir textos e imágenes"/>
+            <Label Text="Podría pensarse que estas habilidades instrumentales son suficientes para conseguir un trabajo. Sin 
+embargo, ¿pueden aprenderse de manera aislada? Creemos que no. Resulta difícil aprender habilidades 
+prácticas sin tener en cuenta a las habilidades fundamentales. 
+Las habilidades digitales instrumentales no podrán promover un buen manejo de la tecnología, si no se 
+aprende cómo funciona el entorno digital.
+Parece difícil aprender a crear un correo electrónico o a elaborar un perfil en las redes sociales sin pensar 
+qué información personal conviene compartir en la web. Analizar y comprender el concepto de privacidad 
+en Internet es esencial para construir la identidad digital.
+Resulta difícil aprender sobre hojas de cálculo, sin tener la capacidad para argumentar y comunicar los 
+resultados y conclusiones que propone la planilla.
+Realizar una presentación digital sobre un trabajo requiere saber buscar, evaluar y seleccionar la 
+información para esta presentación. Por lo tanto, resulta indispensable analizar cómo circulan los 
+contenidos en Internet, y contar con la capacidad crítica que permite reconocer cuáles son confiables y 
+utilizables para una presentación.
+Aprender a instalar o descargar aplicaciones no implica solamente saber qué íconos clickear. Requiere 
+además analizar qué significan los términos y condiciones de uso que propone una aplicación, antes de 
+su descarga. Esto implica evaluar la manera en que otros pueden utilizar la información que las personas 
+comparten y hacen pública en Internet.
+La creación de videos y otros contenidos digitales es una habilidad digital práctica importante. Pero será 
+difícil incorporarla, sin antes comprender el significado y los usos del lenguaje digital, y sin antes pensar 
+en las audiencias, es decir en quiénes y de qué manera recibirán el mensaje. La capacidad creativa es 
+mucho más que la sola habilidad práctica para generar una producción.
+Aprender a compartir textos o imágenes a través de las redes sociales, requiere enseñar a comunicar en 
+el entorno digital, no solo de manera efectiva sino, sobre todo, pensando en los demás, sin herir y en un 
+ambiente plural y de valoración por los otros.
+Las habilidades fundamentales, como vimos, permiten comprender cómo funciona el universo on 
+line y reflexionar acerca de las tecnologías e Internet, antes de utilizarlas como herramientas, con fines 
+instrumentales. 
+De esto precisamente, tratarán los próximos capítulos. Ellos analizarán los diferentes dilemas que genera 
+el uso de Internet:"/>
+
+            <Label></Label>
+            <Label Text=" ● La construcción de la huella y la identidad digita"/>
+            <Label Text=" ● La big data y el uso de la información persona"/>
+            <Label Text=" ● El funcionamiento de algoritmos"/>
+            <Label Text=" ● La búsqueda y selección de información confiable"/>
+            <Label Text=" ● El significado de la creación y la participación on line"/>
+            <Label Text=" ● Los usos del lenguaje digital"/>
+            <Label></Label>
+            <Label HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="El abordaje crítico, reflexivo y creativo de las tecnologías e Internet permitirá un mejor uso de dispositivos tecnológicos."
+                              BackgroundColor="YellowGreen"
+                              TextColor="White"
+                              FontSize="20" />
+
+
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label></Label>
+            <Label Text="Para seguir pensando" Style="{StaticResource TituloAzul}" />
+
+            <Label Text=" Imagina que te despiertas y no hay más tecnologías e Internet. Analiza qué pasaría con la vida 
+de las personas: ¿De qué manera afectaría esta ausencia a su cotidianeidad? ¿Qué pasaría con la 
+comunicación? ¿Qué sucedería con el modo de informarse? ¿Y de aprender? ¿Influiría sobre la toma 
+de decisiones? ¿Qué es lo que más extrañarías? ¿Qué perderías?"/>
+
+
+
+
+        </StackLayout>
+    
+    </ScrollView>
+</ContentPage>

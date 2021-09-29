@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CiudadaniaDigital2.Views.Page2">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="TituloAzul" TargetType="Label">
+
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="RoyalBlue" />
+
+            </Style>
+            <Style x:Key="TituloVerde" TargetType="Label">
+
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="YellowGreen"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+
+
+
+
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <ScrollView>
+
+        <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+
+            <Label Text="Unidad 2:" FontAttributes="Bold" FontSize="Title" TextColor="Red"/>
+            <Label Text="        Cómo buscar información confiable en Internet" FontAttributes="Bold" FontSize="Title" TextColor="Red"/>
+            <Label />
+            <Label Text="Cómo buscar información confiable en Internet" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+            <Label Text="Buscar información es una de las actividades más importantes cuando navegamos en Internet. Buscamos 
+información por inquietudes personales, por trabajo o por necesidades cotidianas. La información que 
+circula en la web es tan abundante, que elegir una respuesta parece una tarea fácil."  />
+            <Label></Label>
+            <Label HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="La información está a un click de distancia. Es accesible. Y no tiene límites geográficos: puede provenir de cualquier lugar en el mundo"
+                              BackgroundColor="YellowGreen"
+                              TextColor="White"
+                              FontSize="20" />
+
+
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label></Label>
+            <Label Text="Solemos creer que la abundancia de información en la web contiene la solución a todas nuestras dudas. 
+Que ya no existen preguntas sin respuestas. Que todo lo que queremos saber está en un lugar, al que 
+podemos recurrir fácilmente. Que nuestras decisiones hoy, son más sencillas. 
+Sin embargo, nada es tan simple. La enorme cantidad de información disponible en Internet, no trae 
+consigo todas las respuestas. Por el contrario, genera nuevas preguntas. Y son más complicadas. Surgen 
+interrogantes que ya no se responden con un dato o con una frase. Necesitan reflexión, pensamiento 
+crítico y análisis. En el siglo XXI, más información no significa necesariamente mejores decisiones. 
+Ante tanta información, no siempre es fácil distinguir de dónde proviene ni quién es su autor. La mayoría 
+de las veces, esta abundancia de contenidos en Internet, hace más difícil reconocer qué textos seleccionar 
+y utilizar. Hoy es, sin duda, más complicado identificar qué informaciones son relevantes y confiables y 
+cuáles, no. 
+La información es la base del conocimiento, porque orienta a quien cuenta con ella, en la resolución de 
+problemas y toma de decisiones. Es una materia prima fundamental para pensar nuestras elecciones y 
+enfrentar los dilemas de la vida diaria. 
+En el siglo XXI, sin embargo, la sola disponibilidad de información no alcanza. El objetivo no es contar 
+con información. Todas las personas tienen la posibilidad de acceder a los contenidos que quieren, en 
+cualquier momento y desde cualquier lugar. El desafío hoy, por lo tanto, es la calidad de este acceso. 
+En otras palabras, saber buscar, seleccionar y utilizar reflexivamente la información, es parte de las 
+competencias digitales fundamentales, que permiten convertir esta información en conocimiento.
+Está claro que Internet supone una enorme riqueza y abre la puerta para acceder a hechos y opiniones 
+que de otra manera nunca podrían conocerse. La circulación de información en la web ha permitido 
+–y permite- que millones de personas puedan disponer de saberes que provienen de universidades 
+lejanas, aprender de prácticas médicas en hospitales de mayor desarrollo, aumentar las oportunidades 
+en la búsqueda de un trabajo, descubrir respuestas a problemas de la vida cotidiana y disfrutar obras de 
+teatro y películas, que de otra manera no se podrían ver. Los beneficios de la accesibilidad a saberes e 
+informaciones infinitas a través de Internet, quedan fuera de toda duda.
+Sin embargo, está claro que es el uso que las personas hagan de esa información, lo que la convertirá en 
+conocimiento. "  />
+            <Label></Label>
+            <Label HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="La acumulación de información, por la información misma, no suma. En cambio, puede saturar, perjudicar y confundir"
+                              BackgroundColor="YellowGreen"
+                              TextColor="White"
+                              FontSize="20" />
+
+
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+
+            <Label></Label>
+            <Label Text="Cuando buscan información en Internet, la mayoría de las personas suelen utilizar el primer link que arroja 
+el buscador porque creen que es el más seguro (aun cuando por lo general, es el autor quien paga para 
+figurar primero). Además, recurren a una única página web, no comparan ni contrastan la información 
+que encuentran. Alcanza con que el sitio incluya la respuesta que necesitan, para no buscar más. Tampoco evalúan la procedencia de la información, las fuentes que figuran en el texto, los datos que proporciona, 
+o la identidad del autor. Si la página web que encontraron tiene la solución a lo que buscan, si resuelve 
+rápidamente sus propias dudas, es suficiente motivo para utilizarla."  />
+            <Label></Label>
+            <Label Text="¿Qué se puede hacer?" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+            <Label Text="Para que el uso de la información sea efectivo, las personas necesitarán saber cómo buscarla, analizar 
+su relevancia, identificar quién la produjo, evaluar su confiabilidad y utilizarla para tomar decisiones 
+fundamentadas. 
+La Unesco incluye estas competencias digitales fundamentales en lo que llama alfabetización 
+informacional. La alfabetización informacional enseña a seleccionar, localizar, evaluar, procesar y utilizar 
+los contenidos que circulan en Internet. 
+Si las personas aprenden a evaluar la relevancia y confiabilidad de una información en la web, podrán tomar 
+mejores decisiones. Resulta esencial que aprendan a diferenciar y evaluar el enorme caudal de datos, rumores, 
+textos, informaciones y saberes que circulan en Internet, para decidir en base a juicios y argumentos reflexivos. 
+Estas competencias son fundamentales en la era digital, porque la sobre abundancia informativa puede 
+obstaculizar la capacidad para seleccionar cuál utilizar y cuál desechar."  />
+            <Label></Label>
+      
+            <Label HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="El flujo constante de información complica la habilidad para distinguir qué contenido es confiable y cuál, falso"
+                              BackgroundColor="YellowGreen"
+                              TextColor="White"
+                              FontSize="20" />
+
+
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label></Label>
+
+            <Label Text="Fortalecer el pensamiento crítico requiere analizar cómo se presentan los argumentos y evidencias en el texto. 
+También –como dijimos- supone identificar de dónde proviene la información y las fuentes que se mencionan."  />
+            <Label></Label>
+            <Label Text="¿Qué pasos seguir?" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+
+            <Label Text="El primer paso es comprender la importancia de contar siempre con una información plural. Resulta 
+esencial no utilizar una única página web. Entender que la unicidad de la voz limita la comprensión e 
+impide la construcción de una opinión fundamentada.
+En segundo lugar, es importante diferenciar el género de los contenidos que se encuentran en Internet. 
+Cada género –información, opinión o publicidad- refleja una intencionalidad diferente y responde a 
+intereses distintos. Mientras que un texto publicitario busca convencer y persuadir, un artículo editorial 
+emite una opinión explícita y un contenido informativo pretende aportar datos sobre un determinado 
+hecho o tema. Las intenciones de cada texto –según el género en el que se inscriba- varían y determinan 
+de qué manera utilizarlo. 
+El tercer paso en esta alfabetización supone identificar qué es una información relevante y confiable 
+y cómo distinguirla de la que no lo es. Para poder decidir sobre la confiabilidad de un texto, es 
+necesario identificar la procedencia de la información, es decir investigar quién la generó. Se trata 
+de aprender a distinguir la credibilidad de la fuente, su trayectoria. La identidad del autor define 
+la confiabilidad del contenido y –al igual que el género- refleja también la intencionalidadde la 
+información."  />
+            <Label></Label>
+
+            <Label Text="¿Qué preguntar?" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+
+            <Label Text="El desafío será interrogar lo que se dice (y no se dice). El pensamiento crítico supone que las personas 
+formulen preguntas para evitar las conclusiones rápidas fundadas en análisis simplistas. Estas preguntas 
+permitirán analizar la confiabilidad (o no) de un contenido en la web. Algunos interrogantes pueden ser:"  />
+            
+            
+            
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
