@@ -11,7 +11,7 @@
                 <Setter Property="FontSize" Value="Large" />
                 <Setter Property="TextColor" Value="White" />
                 <Setter Property="BackgroundColor" Value="RoyalBlue" />
-                    
+
             </Style>
             <Style x:Key="TituloVerde" TargetType="Label">
 
@@ -19,14 +19,18 @@
                 <Setter Property="TextColor" Value="White" />
                 <Setter Property="BackgroundColor" Value="YellowGreen"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
-
-
-
-
             </Style>
+            <Style x:Key="Texto" TargetType="Label">
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+            <Style x:Key="TextoBullet" TargetType="Label">
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+
         </ResourceDictionary>
     </ContentPage.Resources>
-
 
     <ScrollView>
         
@@ -38,7 +42,7 @@
             <Label Text="Capacidades para el siglo XXI" Style="{StaticResource TituloAzul}" />
                 <Label Text="Es imposible predecir qué saberes serán útiles y significativos en el futuro. Lo único que se sabe es 
 que en el siglo XXI las personas necesitan capacidades básicas: aprender a resolver problemas, construir 
-argumentos, tomar decisiones, saber comunicarlas y participar."  />
+argumentos, tomar decisiones, saber comunicarlas y participar." Style="{StaticResource Texto}"  />
             <Label />
 
             <Label HorizontalTextAlignment="Center">
@@ -62,7 +66,7 @@ Para construir conocimientos las personas necesitan competencias fundamentales: 
 analizar, evaluar, argumentar, decidir y comunicar.
 Estas competencias son una condición necesaria para vivir en democracia. La capacidad para analizar, 
 evaluar, juzgar, argumentar, inferir, anticipar, resolver problemas, elaborar conclusiones, proponer ideas y 
-tomar decisiones es un esencial para que los ciudadanos puedan participar en la sociedad."/>
+tomar decisiones es un esencial para que los ciudadanos puedan participar en la sociedad." Style="{StaticResource Texto}"/>
             <Label />    
             <Label Text="Habilidades digitales" Style="{StaticResource TituloAzul}" />
                 <Label Text="Para aplicar estas competencias al mundo de Internet se necesita una formación en habilidades 
@@ -70,7 +74,7 @@ específicas. Son las llamadas habilidades digitales.
 Las habilidades digitales son los conocimientos, capacidades, destrezas, actitudes y estrategias que se 
 requieren para el uso de las tecnologías e Internet. 
 Estas habilidades se dividen en dos grandes categorías: las habilidades digitales fundamentales y las 
-habilidades digitales instrumentales. Empecemos por las primeras."/>
+habilidades digitales instrumentales. Empecemos por las primeras." Style="{StaticResource Texto}"/>
 
             <Label />
             <Label Text="Habilidades digitales fundamentales" Style="{StaticResource TituloAzul}" />
@@ -84,26 +88,26 @@ el papel de las tecnologías en nuestras vidas; saber elegir y usar información
 decisiones; analizar nuestras acciones en Internet y pensar en las huellas que dejamos; entender el 
 significado y los límites de la privacidad en Internet.
 Contar con habilidades digitales fundamentales permite entender cómo funciona el entorno digital y 
-enfrentar los grandes desafíos que genera el uso de Internet. Entre ellos:"/>
-            <Label Text=" ● Comprender el significado de privacidad y la identidad digital"/>
-            <Label Text=" ● Analizar, evaluar y seleccionar la información que circula en Internet"/>
-            <Label Text=" ● Comprender cómo funcionan los algoritmos y cómo afectan la vida diaria"/>
-            <Label Text=" ● Comunicar en el universo on line, colaborar con otros, interactuar en redes"/>
-            <Label Text=" ● Utilizar Internet para participar y resolver problemas"/>
-            
-            <Label Text="Estas habilidades preparan a las personas para responder a las demandas laborales del siglo XXI. "/>
+enfrentar los grandes desafíos que genera el uso de Internet. Entre ellos:" Style="{StaticResource Texto}"/>
+            <Label Text=" ● Comprender el significado de privacidad y la identidad digital" Style="{StaticResource Texto}"/>
+            <Label Text=" ● Analizar, evaluar y seleccionar la información que circula en Internet" Style="{StaticResource Texto}"/>
+            <Label Text=" ● Comprender cómo funcionan los algoritmos y cómo afectan la vida diaria" Style="{StaticResource Texto}"/>
+            <Label Text=" ● Comunicar en el universo on line, colaborar con otros, interactuar en redes" Style="{StaticResource Texto}"/>
+            <Label Text=" ● Utilizar Internet para participar y resolver problemas" Style="{StaticResource Texto}"/>
+
+            <Label Text="Estas habilidades preparan a las personas para responder a las demandas laborales del siglo XXI. " Style="{StaticResource Texto}"/>
             <Label></Label>
             <Label Text="Habilidades digitales instrumentales" Style="{StaticResource TituloAzul}" />
 
-            <Label Text="La segunda categoría de habilidades digitales corresponde a las habilidades digitales instrumentales. Son aptitudes y destrezas vinculadas al manejo de la herramienta. Por estar centradas en el instrumento, se las llama habilidades digitales instrumentales Estas habilidades facilitan un uso práctico de los dispositivos digitales, las aplicaciones y plataformas. Las habilidades digitales instrumentales enseñan a manejar las herramientas para funciones y acciones específicas."/>
+            <Label Text="La segunda categoría de habilidades digitales corresponde a las habilidades digitales instrumentales. Son aptitudes y destrezas vinculadas al manejo de la herramienta. Por estar centradas en el instrumento, se las llama habilidades digitales instrumentales Estas habilidades facilitan un uso práctico de los dispositivos digitales, las aplicaciones y plataformas. Las habilidades digitales instrumentales enseñan a manejar las herramientas para funciones y acciones específicas." Style="{StaticResource Texto}"/>
             <Label></Label>
-            <Label Text="Las habilidades digitales instrumentales más frecuentes y demandadas son:"/>
-            <Label Text=" ● La generación y el uso del correo electrónico"/>
-            <Label Text=" ● La utilización de planillas y hojas de cálculo."/>
-            <Label Text=" ● La realización de presentaciones digitales"/>
-            <Label Text=" ● La descarga e instalación de aplicaciones"/>
-            <Label Text=" ● La creación de videos y contenidos digitales"/>
-            <Label Text=" ● El uso de redes sociales para compartir textos e imágenes"/>
+            <Label Text="Las habilidades digitales instrumentales más frecuentes y demandadas son:" Style="{StaticResource Texto}"/>
+            <Label Text=" ● La generación y el uso del correo electrónico" Style="{StaticResource Texto}"/>
+            <Label Text=" ● La utilización de planillas y hojas de cálculo." Style="{StaticResource Texto}"/>
+            <Label Text=" ● La realización de presentaciones digitales" Style="{StaticResource Texto}"/>
+            <Label Text=" ● La descarga e instalación de aplicaciones" Style="{StaticResource Texto}"/>
+            <Label Text=" ● La creación de videos y contenidos digitales" Style="{StaticResource Texto}"/>
+            <Label Text=" ● El uso de redes sociales para compartir textos e imágenes" Style="{StaticResource Texto}"/>
             <Label Text="Podría pensarse que estas habilidades instrumentales son suficientes para conseguir un trabajo. Sin 
 embargo, ¿pueden aprenderse de manera aislada? Creemos que no. Resulta difícil aprender habilidades 
 prácticas sin tener en cuenta a las habilidades fundamentales. 
@@ -133,15 +137,15 @@ Las habilidades fundamentales, como vimos, permiten comprender cómo funciona el
 line y reflexionar acerca de las tecnologías e Internet, antes de utilizarlas como herramientas, con fines 
 instrumentales. 
 De esto precisamente, tratarán los próximos capítulos. Ellos analizarán los diferentes dilemas que genera 
-el uso de Internet:"/>
+el uso de Internet:" Style="{StaticResource Texto}"/>
 
             <Label></Label>
-            <Label Text=" ● La construcción de la huella y la identidad digita"/>
-            <Label Text=" ● La big data y el uso de la información persona"/>
-            <Label Text=" ● El funcionamiento de algoritmos"/>
-            <Label Text=" ● La búsqueda y selección de información confiable"/>
-            <Label Text=" ● El significado de la creación y la participación on line"/>
-            <Label Text=" ● Los usos del lenguaje digital"/>
+            <Label Text=" ● La construcción de la huella y la identidad digita" Style="{StaticResource Texto}"/>
+            <Label Text=" ● La big data y el uso de la información persona" Style="{StaticResource Texto}"/>
+            <Label Text=" ● El funcionamiento de algoritmos" Style="{StaticResource Texto}"/>
+            <Label Text=" ● La búsqueda y selección de información confiable" Style="{StaticResource Texto}"/>
+            <Label Text=" ● El significado de la creación y la participación on line" Style="{StaticResource Texto}"/>
+            <Label Text=" ● Los usos del lenguaje digital" Style="{StaticResource Texto}"/>
             <Label></Label>
             <Label HorizontalTextAlignment="Center">
                 <Label.FormattedText>
@@ -163,7 +167,7 @@ el uso de Internet:"/>
             <Label Text=" Imagina que te despiertas y no hay más tecnologías e Internet. Analiza qué pasaría con la vida 
 de las personas: ¿De qué manera afectaría esta ausencia a su cotidianeidad? ¿Qué pasaría con la 
 comunicación? ¿Qué sucedería con el modo de informarse? ¿Y de aprender? ¿Influiría sobre la toma 
-de decisiones? ¿Qué es lo que más extrañarías? ¿Qué perderías?"/>
+de decisiones? ¿Qué es lo que más extrañarías? ¿Qué perderías?" Style="{StaticResource Texto}"/>
 
 
 

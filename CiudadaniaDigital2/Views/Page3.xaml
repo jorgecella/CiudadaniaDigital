@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CiudadaniaDigital2.Views.Page3">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="TituloAzul" TargetType="Label">
+
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="RoyalBlue" />
+
+            </Style>
+            <Style x:Key="TituloVerde" TargetType="Label">
+
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="YellowGreen"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+            <Style x:Key="Texto" TargetType="Label">
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+            <Style x:Key="TextoBullet" TargetType="Label">
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <ScrollView>
+
+        <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+
+            <Label Text="Unidad 3:" FontAttributes="Bold" FontSize="Title" TextColor="Red"/>
+            <Label Text="        Privacidad y Huella Digital" FontAttributes="Bold" FontSize="Title" TextColor="Red"/>
+            <Label />
+            <Label Text="Desde la aparición de Internet, la relación entre lo público y lo privado se ha transformado. Los límites de 
+lo que se dice y se muestra se han ampliado. ¿Qué es 'público' hoy? ¿Qué quiere decir 'privado' en este 
+contexto? Las fronteras entre ambos conceptos se han desdibujado. " Style="{StaticResource Texto}" />
+
+            <Label Text="¿Qué significa privacidad en Internet?" Style="{StaticResource TituloAzul}" />
+
+            <Label Text="En las redes sociales, las personas cuentan sus vidas. Día tras día, la cotidianeidad de todos se puede ver 
+de manera instantánea por conocidos y desconocidos. Las personas exponen públicamente su intimidad 
+y no hay nada que la proteja o mantenga en secreto. Las redes sociales han transformado los lugares de la 
+intimidad. La vida privada se ha desplazado a la web y se instala en el espacio público. " Style="{StaticResource Texto}" />
+
+            <Label></Label>
+            <Label HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="En el siglo XXI, no parecen existir límites entre lo público y lo privado"
+                              BackgroundColor="YellowGreen"
+                              TextColor="White"
+                              FontSize="20" />
+
+
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label></Label>
+            <Label Text="La sociedad actual valora la auto-exhibición. Gente común, se convierte en 'famosa', contando aspectos 
+no trascendentes y, a veces, íntimos de su vida privada. Con frecuencia, la sociedad recibe a estos ex 
+anónimos como celebridades. En el siglo XXI, para muchos, la meta es ver y, sobre todo, 'ser visto', 
+mostrarse, exhibirse. La visibilidad es la prueba de existencia en Internet. En la web, las personas sienten la 
+exigencia de estar siempre conectadas y ubicables. Las tecnologías generaron un nuevo orden, basado en 
+un principio de visibilidad. Si la vida es visible, se puede contar, comunicar y compartir. (Sibilia, 2008)" Style="{StaticResource Texto}" />
+
+            <Label Text="El lema de YouTube es 'muéstrese usted mismo' ('broadcast yourself'). Las redes sociales responden a la 
+necesidad de hablar y de mostrarse ahora, ya mismo y de cualquier forma." Style="{StaticResource Texto}" />
+
+            <Label Text=" Los perfiles se convierten así, en una suerte de foro on line público, y no importa que el contenido se 
+centre en la vida personal. Precisamente porque las redes sociales están construidas sobre la auto expresión. Al mismo tiempo, se transforman en espacios públicos al incluir la voz de los demás. Es 
+justamente la reacción y respuesta de las audiencias lo que le da dinamismo a los perfiles. Una red social necesita siempre de los demás." Style="{StaticResource Texto}" />
+                
+                
+<Label Text="El objetivo principal entonces, es publicar: hacer público lo que se cuenta. Así llega la vida privada al 
+espacio abierto de la web." Style="{StaticResource Texto}" />
+
+    <Label Text="La nueva consigna en el siglo XXI es: 'si experimentas algo, regístralo. Si registras algo, súbelo. Si subes 
+algo, compártelo.'" Style="{StaticResource Texto}" /> 
+<Label Text="Ser visible se ha vuelto un objetivo en la vida. Existe hoy una tendencia a la exposición. Las pantallas multiplican 
+las posibilidades de mostrarse. 'Muestro, luego existo' –podría ser la gran motivación en el siglo XXI " Style="{StaticResource Texto}" />
+            <Label></Label>
+            <Label Text="¿Qué es la huella digital?" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+            <Label Text="Cuando una persona utiliza Internet, traza una huella digital. La huella digital es la marca que deja un 
+usuario en cada actividad que desarrolla en la web: páginas y sitios que visita, videos o fotos que ve, crea 
+y comparte, comentarios que hace, amigos que contacta, búsquedas que realiza, publicaciones que lee, 
+música que escucha, películas o series que mira… " Style="{StaticResource Texto}" />
+            <Label Text="La huella digital es pública. Cualquiera la puede ver." Style="{StaticResource Texto}" />
+
+            <Label></Label>
+            <Label Text="¿Por qué analizarlas? " Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+
+            <Label Text="Fundamentalmente, porque la mayoría de las personas no miden el alcance de la web. No piensan 
+que sus actividades on line y la información que comparten en Internet, pueden ser leídas, vistas 
+y utilizadas por gente o entidades que no conocen, de una manera que no hubieran imaginado ni 
+deseado. " Style="{StaticResource Texto}" />
+            <Label Text="Si las personas no saben cómo se construyen las huellas digitales y de qué manera funcionan, 
+pueden enfrentarse a diversas situaciones de riesgo. Veamos, entonces, cuáles son las posibles 
+complicaciones: " Style="{StaticResource Texto}" />
+            <Label></Label>
+
+            <Label HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="En primer lugar, como la huella es pública, 
+puede ser vista por todos. 
+No hay nada 100 por ciento privado en Internet"
+                              BackgroundColor="YellowGreen"
+                              TextColor="White"
+                              FontSize="20" />
+
+
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label></Label>
+            <Label Text="De esta manera, los contenidos que la persona comparte en la web y todas sus acciones on line, 
+quedan registradas y son públicamente visibles." Style="{StaticResource Texto}" />
+            <Label Text="El segundo riesgo reside en que la huella digital puede ser utilizada por otros de manera 
+descontextualizada y dañar la imagen de la persona. Cualquiera puede recortar una foto o una 
+información privada y aplicarla a una situación que nada tiene que ver con el contexto original en el 
+que ese contenido fue publicado. De esta forma, puede perjudicar -incluso a largo plazo- al autor de 
+esa información. " Style="{StaticResource Texto}" />
+            <Label Text="El tercer riesgo se genera, porque lo que se comparte en Internet es difícil de borrar. Por lo tanto, la 
+huella digital y las acciones que las personas realizan en la web, pueden quedar allí para siempre. Y 
+perjudicar su futuro, aún muchos años después de haber compartido el contenido. Con frecuencia 
+antes de incorporar a un nuevo trabajador, las empresas miran el perfil de la persona en sus redes 
+sociales y el contenido que ha compartido desde que lo creó " Style="{StaticResource Texto}" />
+            <Label Text="Finalmente, y quizás un tema que preocupa en todo el mundo, se refiere al uso que entidades 
+públicas y privadas pueden hacer de la huella digital. Todas las actividades que una persona 
+desarrolla en Internet suelen ser estudiadas, procesadas y organizadas, para conocer mejor al 
+usuario y ofrecerle servicios, productos e ideas acordes a su identidad digital . El acceso y uso de los 
+datos personales es el precio que los individuos pagan por los servicios digitales que utilizan." Style="{StaticResource Texto}" />
+
+            <Label></Label>
+            <Label Text="¿Qué se puede hacer?" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+            <Label Text="La información es, por lo tanto, uno de los recursos más valiosos que la mayoría de las personas ofrecen 
+cuando navegan en Internet. Casi todos los usuarios están dispuestos a ceder sus datos, a cambio de 
+contar con servicios digitales 'gratuitos'" Style="{StaticResource Texto}" />
+
+            <Label Text="El desafío es que las personas se pregunten por las huellas que dejan en la web. Que se interroguen a fin 
+de analizar su comportamiento on line:" Style="{StaticResource Texto}" />
+
+
+            <Label Text=" ●  ¿Somos conscientes de la información que compartimos en Internet?" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿Qué huella digital dejamos con cada click que hacemos?" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿Qué dicen de nosotros nuestras búsquedas en la web?" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿Cómo podrían definirnos nuestros comentarios en las redes sociales?" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿Qué riesgos supone el hecho de que los textos e imágenes que compartimos en Internet puedan quedar allí para siempre? " Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿Cómo puede perjudicarnos en un futuro? ¿En qué situaciones?" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿Somos conscientes del uso que otros pueden hacer de nuestra huella digital?" Style="{StaticResource Texto}"/>
+            <Label></Label>
+            <Label Text="El análisis de nuestras acciones on line es fundamental para reflexionar sobre las huellas que dejamos 
+en la web y para evitar compartir contenidos privados en Internet. Esta práctica forma parte de las 
+competencias digitales fundamentales." Style="{StaticResource Texto}" />
+
+            <Label></Label>
+            <Label Text="Para seguir pensando" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+
+            <Label Text=" 1.  Elabora el contenido de una campaña on line, para que las personas no compartan aspectos de su intimidad en la web. ¿Qué argumentos utilizarías? ¿De qué manera lo harías? " Style="{StaticResource Texto}"/>
+            <Label Text=" 2.  Reflexiona acerca de todas las actividades que sueles realizar en Internet. ¿Qué perfil de ti podría diseñar alguien que las conociera y analizara? ¿Qué podría decir de tu identidad, a partir de lo que lees, miras, escuchas, buscas y comunicas cuando estas on line?" Style="{StaticResource Texto}"/>
+            <Label Text=" 3.  Imagina que estás presentándote para un nuevo trabajo. La empresa decide mirar tu perfil en una red social. ¿El contenido de lo que compartes podría perjudicarte si la empresa lo lee? ¿Qué podrías eliminar para evitar una impresión negativa?" Style="{StaticResource Texto}"/>
+
+
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

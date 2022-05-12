@@ -27,8 +27,8 @@
         </StackLayout>
         <ScrollView Grid.Row="1">
             <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
-                <Label Text="Habilidades Digitales" FontSize="Title" TextColor="Red" FontAttributes="Bold"/>
-                <Label Text="        en el siglo XXI" FontSize="Title" TextColor="Red" FontAttributes="Bold"/>
+                <Label Text="Habilidades Digitales" FontSize="40" TextColor="Red" FontAttributes="Bold"/>
+                <Label Text="        en el siglo XXI" FontSize="40" TextColor="Red" FontAttributes="Bold"/>
                 
                 
             </StackLayout>

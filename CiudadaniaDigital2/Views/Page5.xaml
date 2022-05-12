@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CiudadaniaDigital2.Views.Page5">
+
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="TituloAzul" TargetType="Label">
+
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="RoyalBlue" />
+
+            </Style>
+            <Style x:Key="TituloVerde" TargetType="Label">
+
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="YellowGreen"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+            <Style x:Key="Texto" TargetType="Label">
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+            <Style x:Key="TextoBullet" TargetType="Label">
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <ScrollView>
+
+        <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+
+            <Label Text="Unidad 5:" FontAttributes="Bold" FontSize="Title" TextColor="Red"/>
+            <Label Text="        Usos del lenguaje digital" FontAttributes="Bold" FontSize="Title" TextColor="Red"/>
+            <Label />
+            <Label></Label>
+            <Label></Label>
+            <Label Text="Participar en Internet" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+            <Label Text="Internet abrió la posibilidad para que todas las personas puedan convertirse en productoras de 
+contenidos, expresarse con su propia voz y compartir experiencias." Style="{StaticResource Texto}" />
+            <Label Text="Escribir un comentario en una red social, crear una página web, producir un video en Internet, intervenir 
+en un foro o en una campaña on line sobre temas que preocupan o interesan, es precisamente, lo que se 
+entiende por participar en el entorno digital." Style="{StaticResource Texto}" />
+            <Label Text="En el siglo XXI, Internet ofrece múltiples oportunidades para comprometerse en debates cívicos y 
+participar como actores sociales en la vida pública de la comunidad. Con Internet, aparecen nuevos 
+espacios para que todos puedan hacer escuchar su voz." Style="{StaticResource Texto}" />
+            <Label></Label>
+            <Label HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="Internet y las redes sociales en particular, 
+han generado una oportunidad para visibilizarse"
+                              BackgroundColor="YellowGreen"
+                              TextColor="White"
+                              FontSize="20" />
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label></Label>
+
+            <Label Text="La ciudadanía digital coloca a las personas en mejores condiciones para entender la realidad, para 
+responder a los dilemas y desafíos de este milenio, para insertarse socialmente, para tomar decisiones y 
+para participar en la comunidad. La participación en el universo digital empodera a las personas para que 
+puedan incidir en la calidad de las políticas públicas. Una democracia sólida necesita de ciudadanos bien 
+informados, pero también activos y participativos. " Style="{StaticResource Texto}" />
+
+            <Label></Label>
+            <Label Text="¿Qué competencias se adquieren?" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+            <Label Text="La participación en el universo on line fortalece las competencias sociales, cívicas, reflexivas y expresivas." Style="{StaticResource Texto}" />
+            <Label Text="En primer lugar, se profundizan las competencias sociales, porque el entorno digital permite extender sin 
+límites el intercambio de ideas. Cuando las personas utilizan Internet para crear y compartir contenidos 
+con audiencias que no conocen, aprenden a interactuar con públicos más amplios. Esto les permite 
+confrontar su propia visión con una mayor diversidad de ideas –que no solo incluyen a amigos y 
+conocidos. Escuchan y leen otras opiniones y descubren y valoran la multiplicidad de miradas que existen 
+para el mismo tema. El análisis, la evaluación, las conclusiones y la toma de decisiones pueden basarse en 
+una interacción más diversa y plural que la que les permite el mundo real." Style="{StaticResource Texto}" />
+            <Label Text="Las competencias sociales en el entorno digital permiten actuar de manera colaborativa entre públicos 
+más amplios, para resolver problemas, impulsar proyectos y pensar ideas que mejoren la calidad de vida 
+de la comunidad. " Style="{StaticResource Texto}" />
+            <Label Text="Las competencias sociales proponen integrar a los otros en base a la interacción y la construcción de 
+redes de intercambio. En un mundo en el que la producción de saberes es colectiva, el diálogo en red es 
+fundamental. En esta forma de comunicación y participación, las personas deben aprender a evaluar que los 
+grupos que contactan sean confiables, transparentes y plurales. De esta manera, aprenden a construir redes 
+(networking) que les permitirán vehiculizar sus ideas en un espacio infinito, en un universo sin límites." Style="{StaticResource Texto}" />
+            <Label Text="En segundo lugar, la capacidad reflexiva también se potencia. El pensamiento crítico consiste en la 
+capacidad para formular preguntas, clasificar informaciones, juzgar la confiabilidad de argumentos, 
+extraer conclusiones fundamentadas y tomar decisiones. " Style="{StaticResource Texto}" />
+            <Label Text="En el entorno digital estas competencias se profundizan y potencian, porque pueden basarse en muchas 
+más informaciones, muchos más argumentos, muchas más fuentes y muchas más propuestas de solución." Style="{StaticResource Texto}" />
+            <Label Text="En tercer lugar, cuando utilizan las redes para participar, las desarrollan competencias cívicas, que les 
+enseñan cómo interactuar mejor por el bien de la comunidad. Con su participación en el entorno digital, 
+los usuarios de Internet se convierten en actores sociales, creando redes infinitas que fortalecen y 
+amplifican el compromiso con la vida pública. " Style="{StaticResource Texto}" />
+            <Label Text="Finalmente, se profundizan y potencias capacidades expresivas. Cuando las personas se hacen ver y 
+escuchar en el mundo on line, descubren nuevas formas culturales de comunicación, nuevos códigos 
+lingüísticos, nuevas maneras de expresarse. El lenguaje digital –del que nos ocuparemos en el próximo 
+capítulo- tiene características propias y especificidades que amplifican las oportunidades para transmitir 
+un mensaje, a través de nuevos recursos expresivos." Style="{StaticResource Texto}" />
+            <Label></Label>
+            <Label Text="¿Qué significa utilizar el lenguaje digital?" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+
+            <Label Text="Utilizar el lenguaje digital significa estar en condiciones de producir contenidos de manera creativa, para 
+compartir con otros en la web. " Style="{StaticResource Texto}" />
+            <Label Text="Es 'aprender haciendo' y contribuye a una mayor comprensión del universo on line y los principios que 
+rigen su funcionamiento. En cada producción, las personas experimentan la creatividad y prueban 
+diferentes lenguajes y formas expresivas. Crean historias digitales, producen videos para Internet, diseñan 
+blogs o páginas web, y en cada intervención hacen escuchar su propia voz." Style="{StaticResource Texto}" />
+            <Label Text="Para construir significados –como decíamos en la unidad anterior - las tecnologías utilizan diferentes 
+lenguajes. Y esta diversidad lingüística es precisamente la que deberán tener en cuenta quienes decidan 
+crear contenidos en Internet. Porque el lenguaje no es sólo una forma, también expresa un contenido. El 
+lenguaje tiene siempre una intencionalidad, que se expresa a través de códigos" Style="{StaticResource Texto}" />
+            <Label></Label>
+            <Label Text="¿De qué manera impacta?" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+
+            <Label Text="El enorme potencial de Internet reside en su impacto y alcance infinito. Esta es la gran oportunidad 
+que ofrece la web: llegar a un número ilimitado de personas. Este valor requiere al mismo tiempo, que 
+las personas analicen el impacto que puede generar su mensaje entre audiencias que no conocen. El 
+potencial de Internet es enorme. La responsabilidad de quienes la usan, también." Style="{StaticResource Texto}" />
+
+            <Label></Label>
+            <Label Text="¿Qué tener en cuenta al crear un contenido digital?" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+            <Label Text=" ●  Definir qué se quiere decir y por qué se busca compartir este contenido en la web" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  Evaluar qué lenguaje se utilizará para que el contenido se comprenda de la mejor forma" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  Seleccionar los códigos y recursos en función de la herramienta y plataforma que se utilizará" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  Reflexionar sobre la circulación de contenidos en Internet y de qué forma pueden afectar a las audiencias" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  Analizar cómo expresarse a fin de que el contenido sea más relevante y significativo para la comunidad" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  Utilizar un lenguaje que respete la sensibilidad de los demás" Style="{StaticResource Texto}"/>
+            <Label></Label>
+            <Label Text="Para seguir pensando" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+
+
+            <Label Text=" 1.   Realiza un listado de los espacios para la creación y participación que existen en Internet. ¿Los 
+utilizas? ¿Te gustaría utilizarlos? ¿Podrías dar un ejemplo sobre la manera en que participas o te 
+gustaría participar en el mundo on line? " Style="{StaticResource Texto}"/>
+
+            <Label Text=" 2.   Analicen y debatan: ¿son suficientes los espacios de participación que ofrece la web? ¿Podrían 
+abrirse nuevos? ¿Cómo serían? ¿Qué características tendrían? " Style="{StaticResource Texto}"/>
+
+            <Label Text=" 3.    Observa tu perfil en la red social. ¿Qué recursos lingüísticos utilizas? ¿Son verbales, visuales, 
+audiovisuales? ¿Mediante qué lenguaje te parece que llegas mejor a quienes te siguen? ¿A qué se 
+debe? Reflexiona y describe: ¿de qué manera el lenguaje te permite atraer a tus seguidores?  " Style="{StaticResource Texto}"/>
+
+            <Label Text=" 4.   Identifiquen contenidos en Internet cuyo lenguaje pueda herir la sensibilidad de otras personas. 
+Debatan cómo fueron utilizados los diferentes códigos y recursos del lenguaje. ¿Podrían re elaborar 
+y diseñar ese contenido para revertir la situación y que no dañe a las audiencias?
+ " Style="{StaticResource Texto}"/>
+            <Label></Label>
+
+        </StackLayout>
+    </ScrollView>
+
+
+
+</ContentPage>

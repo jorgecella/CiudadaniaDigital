@@ -17,11 +17,16 @@
                 <Setter Property="TextColor" Value="White" />
                 <Setter Property="BackgroundColor" Value="YellowGreen"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
-
-
-
-
             </Style>
+            <Style x:Key="Texto" TargetType="Label">
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+            <Style x:Key="TextoBullet" TargetType="Label">
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+
         </ResourceDictionary>
     </ContentPage.Resources>
 
@@ -37,7 +42,7 @@
             <Label></Label>
             <Label Text="Buscar información es una de las actividades más importantes cuando navegamos en Internet. Buscamos 
 información por inquietudes personales, por trabajo o por necesidades cotidianas. La información que 
-circula en la web es tan abundante, que elegir una respuesta parece una tarea fácil."  />
+circula en la web es tan abundante, que elegir una respuesta parece una tarea fácil." Style="{StaticResource Texto}" />
             <Label></Label>
             <Label HorizontalTextAlignment="Center">
                 <Label.FormattedText>
@@ -54,7 +59,7 @@ circula en la web es tan abundante, que elegir una respuesta parece una tarea f�
                 </Label.FormattedText>
             </Label>
             <Label></Label>
-            <Label Text="Solemos creer que la abundancia de información en la web contiene la solución a todas nuestras dudas. 
+            <Label  Text="Solemos creer que la abundancia de información en la web contiene la solución a todas nuestras dudas. 
 Que ya no existen preguntas sin respuestas. Que todo lo que queremos saber está en un lugar, al que 
 podemos recurrir fácilmente. Que nuestras decisiones hoy, son más sencillas. 
 Sin embargo, nada es tan simple. La enorme cantidad de información disponible en Internet, no trae 
@@ -81,7 +86,7 @@ en la búsqueda de un trabajo, descubrir respuestas a problemas de la vida cotid
 teatro y películas, que de otra manera no se podrían ver. Los beneficios de la accesibilidad a saberes e 
 informaciones infinitas a través de Internet, quedan fuera de toda duda.
 Sin embargo, está claro que es el uso que las personas hagan de esa información, lo que la convertirá en 
-conocimiento. "  />
+conocimiento. " Style="{StaticResource Texto}" />
             <Label></Label>
             <Label HorizontalTextAlignment="Center">
                 <Label.FormattedText>
@@ -105,7 +110,7 @@ el buscador porque creen que es el más seguro (aun cuando por lo general, es el
 figurar primero). Además, recurren a una única página web, no comparan ni contrastan la información 
 que encuentran. Alcanza con que el sitio incluya la respuesta que necesitan, para no buscar más. Tampoco evalúan la procedencia de la información, las fuentes que figuran en el texto, los datos que proporciona, 
 o la identidad del autor. Si la página web que encontraron tiene la solución a lo que buscan, si resuelve 
-rápidamente sus propias dudas, es suficiente motivo para utilizarla."  />
+rápidamente sus propias dudas, es suficiente motivo para utilizarla." Style="{StaticResource Texto}" />
             <Label></Label>
             <Label Text="¿Qué se puede hacer?" Style="{StaticResource TituloAzul}" />
             <Label></Label>
@@ -119,7 +124,7 @@ Si las personas aprenden a evaluar la relevancia y confiabilidad de una informac
 mejores decisiones. Resulta esencial que aprendan a diferenciar y evaluar el enorme caudal de datos, rumores, 
 textos, informaciones y saberes que circulan en Internet, para decidir en base a juicios y argumentos reflexivos. 
 Estas competencias son fundamentales en la era digital, porque la sobre abundancia informativa puede 
-obstaculizar la capacidad para seleccionar cuál utilizar y cuál desechar."  />
+obstaculizar la capacidad para seleccionar cuál utilizar y cuál desechar." Style="{StaticResource Texto}" />
             <Label></Label>
       
             <Label HorizontalTextAlignment="Center">
@@ -139,7 +144,7 @@ obstaculizar la capacidad para seleccionar cuál utilizar y cuál desechar."  />
             <Label></Label>
 
             <Label Text="Fortalecer el pensamiento crítico requiere analizar cómo se presentan los argumentos y evidencias en el texto. 
-También –como dijimos- supone identificar de dónde proviene la información y las fuentes que se mencionan."  />
+También –como dijimos- supone identificar de dónde proviene la información y las fuentes que se mencionan." Style="{StaticResource Texto}" />
             <Label></Label>
             <Label Text="¿Qué pasos seguir?" Style="{StaticResource TituloAzul}" />
             <Label></Label>
@@ -158,7 +163,7 @@ y cómo distinguirla de la que no lo es. Para poder decidir sobre la confiabilid
 necesario identificar la procedencia de la información, es decir investigar quién la generó. Se trata 
 de aprender a distinguir la credibilidad de la fuente, su trayectoria. La identidad del autor define 
 la confiabilidad del contenido y –al igual que el género- refleja también la intencionalidadde la 
-información."  />
+información." Style="{StaticResource Texto}" />
             <Label></Label>
 
             <Label Text="¿Qué preguntar?" Style="{StaticResource TituloAzul}" />
@@ -166,10 +171,59 @@ información."  />
 
             <Label Text="El desafío será interrogar lo que se dice (y no se dice). El pensamiento crítico supone que las personas 
 formulen preguntas para evitar las conclusiones rápidas fundadas en análisis simplistas. Estas preguntas 
-permitirán analizar la confiabilidad (o no) de un contenido en la web. Algunos interrogantes pueden ser:"  />
-            
-            
-            
+permitirán analizar la confiabilidad (o no) de un contenido en la web. Algunos interrogantes pueden ser:" Style="{StaticResource Texto}" />
+            <Label Text=" ●  ¿De qué fecha es? ¿Es actual?" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿Está el autor claramente identificado? ¿Cómo se presenta?" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿Cuál es su trayectoria? ¿Qué intenciones tiene?" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿A qué género pertenece el contenido? " Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿Qué argumentos presenta? ¿Qué evidencias utiliza?" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿Qué fuentes menciona el texto? ¿Son reconocidas?" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿Qué otras páginas o autores hablan de este mismo tema? ¿Qué dicen?" Style="{StaticResource Texto}"/>
+
+            <Label Text="¿Qué tener en cuenta?" Style="{StaticResource TituloAzul}"  />
+            <Label Text="Estas son algunas recomendaciones para aprender a utilizar un contenido confiable en Internet:"
+                   
+                    Style="{StaticResource Texto}"/>
+            <Label Text=" 1. Seleccionar las palabras que originarán la búsqueda de modo que sean lo más precisas y claras 
+posibles."  Style="{StaticResource Texto}"/>
+            <Label Text=" 2. No utilizar solo el primer link que aparece en el buscador."  Style="{StaticResource Texto}"/>
+            <Label Text=" 3. Considerar siempre más de un sitio web. Comparar lo que dice cada uno sobre el tema."  Style="{StaticResource Texto}"/>
+            <Label Text= "4. Analizar si las páginas web pertenecen a instituciones o autores conocidos que existen en la realidad. Verificar su confiabilidad. "  Style="{StaticResource Texto}"/>
+            <Label Text=" 5. No confundir cómo llegó la información (quién la envió) con su origen (quién la produjo)."  Style="{StaticResource Texto}"/>
+            <Label Text=" 6. Identificar las fuentes que se mencionan. Reconocer si están autorizadas para hablar del tema. "  Style="{StaticResource Texto}"/>
+            <Label Text=" 7. Verificar los argumentos y evidencias que utiliza el texto para fundamentar sus ideas."  Style="{StaticResource Texto}"/>
+            <Label Text=" 8. Utilizar solo los contenidos que se sabe son ciertos. "  Style="{StaticResource Texto}"/>
+            <Label Text="" />
+
+            <Label Text="Nueve de cada diez jóvenes, según reflejan investigaciones internacionales, están convencidos de que 
+Internet y las tecnologías los ayudarán a cumplir sus aspiraciones educativas y laborales.
+Pero no será la tecnología por la tecnología misma, la que de manera mágica, pueda concretar las 
+aspiraciones de las nuevas generaciones. 
+Serán sin duda, su manera de pensar críticamente los contenidos que encuentren en Internet, las 
+búsquedas que realicen para las preguntas que enfrenten, la forma en que resuelvan los problemas, las 
+competencias para fundamentar sus ideas, la habilidad para comunicar sus puntos de vista y la capacidad 
+para tomar decisiones y participar, lo que hará que las tecnologías vuelvan realidad las aspiraciones 
+juveniles.
+"  Style="{StaticResource Texto}" />
+            <Label Text="Para seguir pensando" Style="{StaticResource TituloAzul}" />
+
+            <Label Text=" 1. Elige un tema que te interese. Busca información en Internet para saber más sobre él. Selecciona 
+algunos textos que te parezcan confiables y explica por qué puedes creer en ellos. ¿Qué criterios 
+seguiste para llegar a esta conclusión?"  Style="{StaticResource Texto}" />
+            <Label Text=" 2. ¿Cuáles te parece que podrían ser las mejores estrategias para combatir los contenidos no 
+confiables que circulan en Internet? Escribe un artículo con tus propuestas. " Style="{StaticResource Texto}" />
+            <Label Text=" 3. ¿Qué riesgos, según tu opinión, puede traer el uso de un contenido on line que no es confiable? 
+¿Qué consecuencias podría generar?"  Style="{StaticResource Texto}"/>
+            <Label Text=" 4. 'Correr abrigado hace adelgazar más rápido'. Esta frase fue encontrada en Internet. Reflexionen 
+y debatan: ¿cómo podrían saber si la afirmación es verdadera o falsa? ¿Qué estrategias 
+implementarían para averiguarlo?"  Style="{StaticResource Texto}"/>
+            <Label Text=" 5. 'Las vacunas producen autismo'. Debatan: ¿cómo saber si es verdadero o falso? ¿Qué harían para 
+averiguarlo?" Style="{StaticResource Texto}" />
+            <Label Text="" />
+
+
+
+
         </StackLayout>
     </ScrollView>
 </ContentPage>

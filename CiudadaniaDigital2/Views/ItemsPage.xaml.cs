@@ -48,8 +48,21 @@ namespace CiudadaniaDigital2.Views
                     Navigation.PushAsync(new Page2(), false);
                     
                     break;
+                case "Page3":
+                    Navigation.PushAsync(new Page3(), false);
 
-                
+                    break;
+                case "Page4":
+                    Navigation.PushAsync(new Page4(), false);
+
+                    break;
+                case "Page5":
+                    Navigation.PushAsync(new Page5(), false);
+
+                    break;
+              
+
+
             }
 
             ItemsListView.SelectedItem = null;

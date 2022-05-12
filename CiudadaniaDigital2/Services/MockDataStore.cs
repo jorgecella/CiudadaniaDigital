@@ -16,10 +16,10 @@ namespace CiudadaniaDigital2.Services
             {
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Unidad 1", Description="Las Habilidades Digitales", CapituloPage="Page1" },
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Unidad 2", Description="Cómo buscar información confiable en Internet", CapituloPage="Page2" },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Unidad 3", Description="Privacidad y Huella Digital", CapituloPage="Page3" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Unidad 4", Description="Identidad digital y big data", CapituloPage="Page4" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Unidad 5", Description="Usos del lenguaje digital", CapituloPage="Page5" },
+               
             };
         }
 

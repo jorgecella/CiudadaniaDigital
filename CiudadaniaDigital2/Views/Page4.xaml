@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CiudadaniaDigital2.Views.Page4">
+
+
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="TituloAzul" TargetType="Label">
+
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="RoyalBlue" />
+
+            </Style>
+            <Style x:Key="TituloVerde" TargetType="Label">
+
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="YellowGreen"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+            <Style x:Key="Texto" TargetType="Label">
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+            <Style x:Key="TextoBullet" TargetType="Label">
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <ScrollView>
+
+        <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+
+            <Label Text="Unidad 4:" FontAttributes="Bold" FontSize="Title" TextColor="Red"/>
+            <Label Text="        Identidad digital y big data" FontAttributes="Bold" FontSize="Title" TextColor="Red"/>
+            <Label />
+            <Label></Label>
+            <Label Text="¿Qué significa privacidad en Internet?" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+            <Label Text="Cada vez que alguien utiliza Internet, traza una huella digital. Todo ello queda en la web, y va dibujando 
+el perfil del usuario. Cada click deja una huella. Las cientos o miles de huellas que cada persona deja en 
+Internet, construyen la identidad digital " Style="{StaticResource Texto}" />
+            <Label></Label>
+
+            <Label></Label>
+            <Label HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="La identidad digital, se define por las huellas que cada persona 
+deja en la web. Esta identidad es pública. 
+Cualquiera la puede ver, analizar y utilizar"
+                              BackgroundColor="YellowGreen"
+                              TextColor="White"
+                              FontSize="20" />
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label></Label>
+
+            <Label Text="Las redes sociales y los motores de búsquedas reúnen un caudal importante y permanente de 
+información sobre el comportamiento y la identidad de las personas en Internet." Style="{StaticResource Texto}" />
+            <Label Text="Para las compañías tecnológicas hoy, es posible conocer tu identidad, saber quién eres, cuáles son tus 
+deseos y qué quieres en tu vida. Y lo definen con la suficiente certeza no solo para ofrecer publicidades, 
+sino para influir en lo que lees, miras, escuchas y eliges. Todas las actividades que una persona desarrolla 
+en Internet suelen ser estudiadas y calibradas por algoritmos, que permiten conocer mejor a cada usuario 
+y ofrecerle servicios, productos, consumos e ideas." Style="{StaticResource Texto}" />
+
+            <Label></Label>
+            <Label Text="¿Qué es la big data?" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+            <Label Text="Esta gran cantidad de información que proporcionan los usuarios cuando navegan en la web, recibe 
+el nombre de big data. Son enormes volúmenes de datos que tienen el potencial de ser organizados y 
+procesados para obtener, a partir de ellos, información. La big data busca analizar el comportamiento 
+on line de los usuarios y permite ver lo que las personas realmente quieren, a partir de sus búsquedas e 
+intereses cuando se conectan a Internet." Style="{StaticResource Texto}" />
+            <Label></Label>
+            <Label Text="¿Por qué preocupa?" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+            <Label Text="En primer lugar, por el grado de conocimiento que tiene Internet de las personas y por los usos que puede 
+hacer a partir de ello. El valor de la big data no reside en la acumulación de datos, sino en la manera en 
+que esa información permite conocer mejor a la persona. La big data –mediante el procesamiento de las 
+huellas que los usuarios dejan on line- logra comprender, influir e incluso predecir el comportamiento de 
+las personas. " Style="{StaticResource Texto}" />
+            <Label Text="Sistemas automatizados y algoritmos de clasificación inciden en la aprobación de una visa, el rechazo 
+de un crédito bancario, la selección de un candidato para un empleo, el otorgamiento de una beca 
+estudiantil o la asignación de un subsidio social. La gratuidad en Internet no existe. El costo siempre lo 
+asume alguien. " Style="{StaticResource Texto}" />
+            <Label Text="Estos datos, con frecuencia, son utilizados por empresas privadas y organismos públicos para ofrecer 
+bienes o ideas a los usuarios. Las huellas digitales se convierten entonces en el principal ingreso 
+económico de las compañías tecnológicas, ya que suelen venderlas a quienes las soliciten. 
+" Style="{StaticResource Texto}" />
+            <Label Text="Esta gran cantidad de información que llamamos big data permite no solo identificar el perfil de la 
+persona y reconocer sus preferencias. Puede también, a partir de ello, predecir sus gustos, inclinaciones y 
+nuevas búsquedas. De esta manera, recomienda canciones, películas, informaciones, destinos turísticos, 
+universidades, trabajos o ideas. " Style="{StaticResource Texto}" />
+            <Label Text="Las huellas que las personas dejan en la web son procesadas como información y utilizadas por otros para 
+realizar ofrecimientos personalizados y segmentados, a la medida de cada individuo. Este fenómeno no 
+siempre es visible por los usuarios. " Style="{StaticResource Texto}" />
+            <Label Text="El segundo motivo de preocupación es, entonces, el nivel de desconocimiento que tienen las personas 
+sobre estos hechos. " Style="{StaticResource Texto}" />
+            <Label></Label>
+            <Label HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="La mayoría de la gente desconoce 
+por qué dos personas que realizan la misma 
+búsqueda en la web, obtienen resultados diferentes"
+                              BackgroundColor="YellowGreen"
+                              TextColor="White"
+                              FontSize="20" />
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label></Label>
+            <Label Text="O por qué la publicidad que aparece en nuestra pantalla mientras leemos alguna información, está 
+directamente relacionada con alguna actividad o búsqueda que hicimos on line previamente, en otro 
+momento, por otro motivo y en otro contexto. Todo ello se vincula a las propuestas cada vez más 
+personalizadas de los anunciantes, a partir del análisis y procesamiento de nuestra identidad digital. 
+Se trata de un procesamiento que es invisible para las personas. Para la mayoría de ellas es incluso, 
+desconocido. " Style="{StaticResource Texto}" />
+            <Label></Label>
+            <Label Text="¿Qué son las burbujas digitales?" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+            <Label Text="Las compañías tecnológicas y todos quienes utilizan la huella digital de los usuarios, buscan influir sobre 
+sus comportamientos y motivar el consumo de un determinado bien o idea. Uno de los mecanismos a los 
+que recurren en este proceso, es la creación de burbujas digitales. " Style="{StaticResource Texto}" />
+            <Label Text="La burbuja digital es el universo formado por los resultados personalizados que reciben los usuarios 
+cuando navegan en Internet y que responden exclusivamente a sus intereses. Las personas reciben 
+entonces solo contenidos que les gustaría ver leer o escuchar, basados en información de su historial de 
+búsquedas y en sus clicks previos. " Style="{StaticResource Texto}" />
+            <Label Text="Los usuarios dejan de recibir contenidos no alineados con sus puntos de vista. Comienzan a vivir en 
+burbujas y están conectados solo con quienes piensan como ellos, con similares gustos e intereses. " Style="{StaticResource Texto}" />
+
+            <Label></Label>
+            <Label Text="¿Por qué preocupan?" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+
+            <Label Text="Las burbujas digitales preocupan porque impiden el intercambio de ideas entre personas que piensan 
+diferente. Un universo poblado solo con nuestras mismas ideas, es un territorio en el que no podemos 
+aprender de quienes tienen visiones distintas." Style="{StaticResource Texto}" />
+            <Label Text="Las burbujas excluyen a los que tienen puntos de vista diferentes y agrupan solo a quienes 
+comparten las mismas ideas e inquietudes. Esto genera que los usuarios ignoren contenidos que no 
+se ajustan a sus posiciones." Style="{StaticResource Texto}" />
+
+            <Label></Label>
+            <Label HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="Las burbujas se oponen a la idea de diversidad. 
+Ello limita la capacidad de reflexión y de decisión. 
+Las decisiones que se toman estarán basadas 
+en única perspectiva: la propia"
+                              BackgroundColor="YellowGreen"
+                              TextColor="White"
+                              FontSize="20" />
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label></Label>
+            <Label Text="Además, las burbujas digitales preocupan porque pueden dañar la democracia, que necesita del 
+pluralismo, de la diversidad y de ciudadanos que convivan con distintos puntos de vista. Las burbujas 
+construyen una sociedad más fragmentada que favorece la polarización social. " Style="{StaticResource Texto}" />
+            <Label Text="En una burbuja, las personas solo reciben un limitado tipo de noticias, las que están dentro de sus 
+intereses. Esto genera que su condición como ciudadano informado, consciente de los problemas sociales, 
+se empobrezca. En una democracia participativa, las personas deben estar en contacto con cuestiones 
+sociales, aun cuando no hayan manifestado interés por ellas." Style="{StaticResource Texto}" />
+            <Label Text="La desnutrición, la pobreza, la situación de los inmigrantes o de los discapacitados, pueden no ser 
+inquietudes de la persona, pero son temas sobre los que necesita recibir información porque afectan a 
+toda la sociedad. Poco importa si la persona no buscó información sobre estos temas. De cualquier modo 
+necesita acceder a noticias sobre estas cuestiones sociales, que son fundamentales para la democracia y la 
+convivencia. Los algoritmos no pueden decidir excluir termas tan importantes, solo porque la persona no 
+manifestó interés por ellos." Style="{StaticResource Texto}" />
+            <Label Text="En un mundo complejo, todo incide en nuestras vidas. Aun cuando se trate de temas que no formen parte 
+de nuestra esfera de interés inmediato. La democracia necesita de una sociedad sensible, empática 
+hacia los demás, diversa y plural. Lejos de burbujas." Style="{StaticResource Texto}" />
+            <Label></Label>
+            <Label Text="¿Qué se puede hacer?" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+            <Label Text="Para comprender estos dilemas y procesos es importante contar con habilidades digitales, que permitan 
+analizar los usos que las tecnologías hacen de los datos personales" Style="{StaticResource Texto}" />
+            <Label Text="Una vez más, estas competencias suponen formular preguntas fundamentales:" Style="{StaticResource Texto}" />
+            <Label Text=" ●  ¿Somos conscientes del modo en que se usan nuestros datos en la web?" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿Quiénes utilizan las huellas digitales de las personas?" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿Qué hacen con ellas? ¿Para qué las usan?" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿Por qué las compañías tecnológicas usan la información de los usuarios? " Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿Quién las autoriza?" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿De qué modo afectan nuestras decisiones? ¿Las condicionan?" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿Deciden por nosotros? ¿De qué manera? ¿Quién les dio ese poder?" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿De qué modo es posible hacer más transparente estos usos?" Style="{StaticResource Texto}"/>
+            <Label Text=" ●  ¿Cómo podría evitarse la utilización de los datos personales en la web?" Style="{StaticResource Texto}"/>
+            <Label Text="Desconocer el funcionamiento del entorno digital vuelve más vulnerable el uso que las personas hacen 
+de Internet. Aumenta el riesgo en las búsquedas y promueve una confiabilidad ciega en la información. 
+Las habilidades digitales permiten entender que no existe nada 100 por ciento privado en la web." Style="{StaticResource Texto}" />
+            <Label Text="Tampoco gratuito, ni neutral." Style="{StaticResource Texto}" />
+
+            <Label></Label>
+            <Label Text="Para seguir pensando" Style="{StaticResource TituloAzul}" />
+            <Label></Label>
+
+            <Label Text=" 1.   Describe tus últimas búsquedas en la web. ¿Qué podrían decir ellas acerca de tus intereses, 
+inquietudes y preferencias? ¿De qué manera definirían tu identidad digital? " Style="{StaticResource Texto}"/>
+            <Label Text=" 2.   Si estas en alguna red social, revisa tu perfil para ver si recibes solo información que coincide con 
+tus intereses; o solo contenidos que coinciden con tus opiniones. Si es así, ¿a qué crees que se 
+debe? ¿Cómo podrías revertirlo?" Style="{StaticResource Texto}"/>
+            <Label Text=" 3.   Reflexionen: ¿cuáles podrían ser, en tu opinión, los riesgos de vivir en burbujas digitales? ¿Cómo 
+podrían evitarse? Elaboren entre todos un listado de propuestas para quebrar las burbujas. " Style="{StaticResource Texto}"/>
+            <Label></Label>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
